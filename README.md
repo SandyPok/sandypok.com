@@ -1,7 +1,3 @@
 # Sandy Pok's Webpage
 
-inline-style [link](http://www.sandypok.com) is inline.
-
-reference-style [link][id] uses `id`.
-
-  [id]: http://www.sandypok.com
+[Click Here](http://www.sandypok.com) to navigate to http://www.sandypok.com
