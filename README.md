@@ -1,3 +1,3 @@
-# Sandy Pok's Webpage
+<center># Sandy Pok's Webpage
 
-[Click Here](http://www.sandypok.com) to navigate to http://www.sandypok.com
+<center>http://www.sandypok.com
