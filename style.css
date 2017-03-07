@@ -7,25 +7,33 @@
 .hangman {
   width: 375px;
   height: 315px;
-  outline: #000000 dotted thick;
+  outline: #000000 thick;
 }
 
 .fitness {
   width: 375px;
   height: 315px;
-  outline: #000000 dotted thick;
+  outline: #000000 thick;
 }
 
 .food {
   width: 375px;
   height: 315px;
-  outline: #000000 dotted thick;
+  outline: #000000 thick;
 }
 
 .map {
   width: 375px;
   height: 315px;
-  outline: #000000 dotted thick;
+  outline: #000000 thick;
+}
+
+#profile{
+  margin-top: 0px;
+  height: 300px;
+  border-radius: 100%;
+  shape-outside: circle(50%);
+  align-content: flex-end;
 }
 
 #h3 {
@@ -185,7 +193,49 @@ a:active {
   margin-top: 5%;
 }
 
-.screenshots {
+.hangman {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2%;
+  border-radius: 6px;
+  border: 1px solid darkgray;
+  box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-webkit-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-moz-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-o-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+}
+
+.fitness {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2%;
+  border-radius: 6px;
+  border: 1px solid darkgray;
+  box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-webkit-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-moz-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-o-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+}
+
+.food {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2%;
+  border-radius: 6px;
+  border: 1px solid darkgray;
+  box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-webkit-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-moz-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+-o-box-shadow: inset -2px 0px 10px 0px #5C5858,3px 4px 5px 1px #969393;
+}
+
+.map {
   width: 100%;
   text-align: center;
   margin: 0 auto;
