@@ -28,28 +28,17 @@
   outline: #000000 thick;
 }
 
-#profile{
-  margin-top: 0px;
+.profilepic {
+  margin-top: 20px;
   height: 300px;
   border-radius: 100%;
   shape-outside: circle(50%);
-  align-content: flex-end;
-}
-
-#h3 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: all .2s ease-in;
-    width: 100px;
-    height: 100px;
-    padding-top: 150px;
-    margin: auto;
-    border: aquamarine solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: aquamarine;
+  margin: 18% 100% 9% 1%;
+  color: white;
+  position: flexed;
+  animation-name: slide;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
 
 #home {
@@ -86,8 +75,8 @@
   width: 50%;
   position: absolute;
   animation-name: dropdown;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
+  animation-duration: 4s;
+  animation-fill-mode: both;
 }
 
 nav {
@@ -346,6 +335,18 @@ p {
 
   to {
     margin-left: 4%;
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    opacity: 1;
+  }
+
+  to {
+    margin-left: 60%;
     opacity: 1;
   }
 }
