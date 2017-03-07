@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Sandy Pok</title>
-    <link rel="stylesheet" href="./styles.css">
-  </head>
+    <title> Sandy Pok </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    </head>
+
   <body>
-    <h1>Hello, My name is Sandy Pok! I'm a Web Developer!</h1>
-    <h3><a href="http://www.linkedin.com/in/sandypok" target="_blank">Contact me</a></h3>
+    <section id="home">
+      <nav>
+        <ul class="navbar">
+          <li><a class="navlink" href="#portfolio">Portfolio</a></li>
+          <li><a class="navlink" href="#skills">Skills</a></li>
+          <li><a class="navlink" href="https://github.com/SandyPok">GitHub</a></li>
+          <li><a class="navlink" href="mailto:pok.sandy@yahoo.com">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="name">
+        <h1 id="main-name">Sandy Pok</h1> <br>
+        <h3 id="main-sub">Web Developer • Music Enthusiast • Rhode Islander</h3><br>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h1 class="section-header"> PORTFOLIO </h1>
+      <div class="two-projects">
+          <div class="project">
+            <h2 class="project-title">Hangman</h2>
+            <img class="hangman" class="screenshots" src="./Images/hangman.jpg">
+            <br><a class="project-links" href="http://www.sandypok.com/Hangman-GA/">LIVE</a>
+            <a class="project-links" href="https://github.com/SandyPok/Hangman-GA">GITHUB</a>
+          </div>
+
+          <div class="project" id="row1">
+            <h2 class="project-title">myFitnessTracker</h2>
+            <img class="fitness" class="screenshots" src="./Images/myFitnessTracker.png">
+            <br><a class="project-links" href="https://myfitnesstracker.herokuapp.com">LIVE</a>
+            <a class="project-links" href="https://github.com/SandyPok/myFitnessTracker">GITHUB</a>
+          </div>
+      </div>
+      <div class="two-projects" id="row2">
+        <div class="project">
+          <h2 class="project-title">Food By Mood</h2>
+          <img class="food" src="./Images/FoodByMood.png">
+          <br><a class="project-links" href="https://mconnors333.github.io/food-by-mood-ui/">LIVE</a>
+          <a class="project-links" href="https://github.com/mconnors333/food-by-mood-ui">GITHUB</a>
+        </div>
+
+        <div class="project">
+          <h2 class="project-title">MapYourSnap</h2>
+          <img class="map" class="screenshots" src="./Images/MapYourSnap.png">
+          <br><a class="project-links" href="https://mapyoursnap.herokuapp.com">LIVE</a>
+          <a class="project-links" href="https://github.com/SandyPok/MapYourSnap">GITHUB</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1 class="section-header">SKILLS</h1>
+        <div id="my-skills">
+          <!--This is a comment. Comments are not displayed in the browser-->
+
+          <!--<img class="icons" id="html5" src="./Images/html.png">
+          <img class="icons" id="css" src="./Images/css.png">
+          <img class="icons" id="javascript" src="./Images/js.jpg">
+          <img class="icons" id="reactJS" src="./Images/react.png">
+          <img class="icons" id="node" src="./Images/node.png">
+          <img class="icons" id="psql" src="./Images/psql.png">
+          <img class="icons" id="ruby" src="./Images/ruby.png">
+          <img class="icons" id="rails" src="./Images/rails.png">
+          <img class="icons" id="firebase" src="./Images/firebase.png">
+          <img class="icons" id="office" src="./Images/office.png"> -->
+
+        </div>
+    </section>
+
+    <div id="footer">
+      <ul class="social">
+         <!-- <li><a href="">
+            <img class="icon" src="Images/Facebook.png"></a>
+         </li>
+         <li><a href="">
+            <img class="icon" src="Images/Instagram.png"></a>
+          </li> -->
+          <li><a href="https://www.linkedin.com/in/sandypok">
+            <img class="icon" src="Images/linkedin.png"></a>
+         </li>
+         <!-- <li><a href="">
+            <img class="icon" src="Images/Spotify.png"></a>
+         </li> -->
+      </ul>
+      <p>Sandy Pok 2017</p>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js" charset="utf-8"></script> -->
+    <script src="scripts.js" type="text/javascript" charset="utf-8" async defer></script>
 
   </body>
 </html>
