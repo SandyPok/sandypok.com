@@ -244,7 +244,7 @@ a:active {
   height: 360px;
 }
 
-#skills {
+#aboutme {
   width: 100%;
   text-align: center;
   padding-top: 18%;
@@ -341,7 +341,7 @@ p {
 
 @keyframes slide {
   from {
-    margin-left: 100%;
+    margin-left: 80%;
     opacity: 1;
   }
 
@@ -350,12 +350,6 @@ p {
     opacity: 1;
   }
 }
-
-
-
-
-
-
 
 /*IPHONE 5*/
 @media (max-width: 360px) {
@@ -404,8 +398,6 @@ p {
   }
 
 }
-
-
 
 
 /*IPHONE 6*/
@@ -528,7 +520,7 @@ p {
   }
 }
 
-@media (max-width: 3000px) and (min-width: 2000px) {
+@media (max-width: 3500px) and (min-width: 2000px) {
   #home {
     background-position: center center;
   }
